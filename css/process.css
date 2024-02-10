@@ -1,0 +1,24 @@
+/* process start */
+.da-process-section {
+  padding: 120px 0;
+}
+.process-sub-header {
+  display: inline-block;
+  color: #1273eb;
+}
+.project-contract-analysis-solution {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.work-details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.process-work-list {
+  display: flex;
+  gap: 20px;
+}
+
+/* process end */

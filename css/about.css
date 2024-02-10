@@ -1,0 +1,46 @@
+/* about us start */
+.da-about-us {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+.common-section-for-about-process {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.left-about-details {
+  flex: 1;
+}
+
+.right-about-details {
+  flex: 1;
+}
+.business-solution {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about {
+  display: inline-block;
+  color: #eb8a12;
+}
+.experience-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.yellow {
+  color: #ffa826;
+}
+.green {
+  color: #19bc90;
+}
+.blue {
+  color: #0085ff;
+}
+.red {
+  color: #ff5c5c;
+}
+/* about us end */

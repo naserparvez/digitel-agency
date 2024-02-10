@@ -1,0 +1,50 @@
+/* hero start */
+.da-hero-section {
+  padding: 150px 0;
+  position: relative;
+  background-image: url("../images/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.hero-right {
+  flex: 1;
+}
+.hero-left {
+  flex: 1;
+}
+
+.hero-sub-header {
+  display: inline-block;
+  color: #1273eb;
+}
+
+.bold_text {
+  font-weight: 700;
+}
+
+.hero-header {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 75px;
+  color: #020c17;
+  text-transform: capitalize;
+}
+.hero-btn {
+  display: inline-block;
+}
+.common-btn {
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #1273eb;
+}
+
+/* hero end */

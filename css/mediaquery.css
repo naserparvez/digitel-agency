@@ -1,0 +1,595 @@
+/* media query */
+@media screen and (max-width: 992px) {
+  .container {
+    margin: 0 16px;
+  }
+  /* hero section */
+
+  .hero-header {
+    font-size: 50px;
+    line-height: 55px;
+  }
+  /* hero section */
+  .brand-header {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  /* about us */
+  .da-about-us {
+    padding-bottom: 40px;
+  }
+  .about-business-solution {
+    gap: 30px;
+  }
+  .about-header {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .common-about h2 {
+    font-size: 36px;
+  }
+  /* about us end */
+  /* service start */
+  .service-header {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .service-list-item img {
+    width: 45px;
+    height: 45px;
+  }
+  .service-list-header {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  /* service end */
+  /* precoess start */
+  .working-process {
+    gap: 50px;
+  }
+  .process-header {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .work-header {
+    font-size: 20px;
+    line-height: 18px;
+  }
+  .project-contract-analysis-solution {
+    gap: 10px;
+  }
+  /* process end */
+  /* testimonial start */
+  .da-testimonials-section {
+    padding: 70px 0;
+  }
+  .testimonial-header {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .testimonial-top {
+    justify-content: space-around;
+  }
+  .testimonial-bottom {
+    gap: 10px;
+  }
+  .client-feedback-sub-header {
+    font-size: 20px;
+  }
+  .feedback-sub-header {
+    font-size: 20px;
+  }
+  /* testimonial end */
+  /* portfolio start*/
+  .da-portfolio-section {
+    padding: 50px 0px;
+  }
+  .portfolio-header {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .portfolio-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* portfolio end */
+  /* contact start */
+  .da-contact-section {
+    padding: 70px 0;
+  }
+  .contact-header {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .input-contact {
+    gap: 20px;
+  }
+
+  .number-email-for-contact h5 {
+    font-size: 20px;
+  }
+  .contact-form h3 {
+    font-size: 28px;
+  }
+  /* contact end */
+  /* footer start */
+  /* footer end */
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 0 18px;
+  }
+  /* header start */
+  #transparent-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 99;
+    transform: translateX(-100%);
+  }
+  #transparent-overlay.active {
+    transform: translateX(0);
+  }
+  .desktop-menu {
+    display: none;
+  }
+
+  .mobile-icon {
+    display: block;
+  }
+  /* mobile menu */
+  .side-nav-menu {
+    display: block;
+  }
+  .submenu-3 {
+    display: none;
+    gap: 5px;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .mobile-menu-list li:hover .submenu-3 {
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+  }
+  .submenu-4 {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    transition: 0.5s;
+    display: none;
+  }
+  .submenu-4.opens {
+    position: relative;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .submenu-4 li a:hover {
+    border: none;
+    color: #5e6266;
+  }
+  .rotate-on-click1 {
+    transition: 0.5s;
+  }
+  .rotate-on-click1.rotates {
+    transform: rotate(180deg);
+    transition: 0.5s;
+  }
+  /* dropdown menu */
+
+  /* header end */
+
+  /* hero section */
+  .da-hero-section {
+    padding: 120px 0;
+  }
+  .hero-header {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .hero-section {
+    flex-direction: column-reverse;
+  }
+  .hero-left {
+    text-align: center;
+  }
+  .hero-sub-header {
+    margin-bottom: 14px;
+  }
+  .hero-header {
+    margin-bottom: 14px;
+  }
+  /* hero end */
+  /* brand start */
+  .da-global-brands {
+    padding: 80px 0px;
+  }
+  .brand-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  /* brand end */
+
+  /* About start */
+  .da-about-us {
+    padding-bottom: 20px;
+  }
+  .about-business-solution {
+    flex-direction: column-reverse;
+  }
+  .right-about-details {
+    text-align: center;
+  }
+  .business-solution {
+    gap: 14px;
+  }
+  .spacer {
+    margin: 10px 0;
+  }
+
+  /* About end */
+  /* service start */
+  .da-service-section {
+    padding: 140px 0 50px 0;
+    background-image: url(../images/bg1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .service-sub-header {
+    margin-bottom: 14px;
+  }
+  .service-list {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .service-list-item {
+    gap: 14px;
+  }
+  .service-list-header {
+    font-size: 24px;
+    line-height: 20px;
+  }
+  .experience-item h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  /* service end */
+
+  /* process start */
+  .da-process-section {
+    padding: 50px 0;
+  }
+  .process-header-list {
+    text-align: center;
+  }
+  .process-sub-header {
+    margin-bottom: 14px;
+  }
+
+  .working-process {
+    flex-direction: column-reverse;
+  }
+
+  /* process end */
+  /* testimonial start */
+  .da-testimonials-section {
+    padding: 60px 0;
+  }
+  .client-feedback-sub-header {
+    font-size: 18px;
+  }
+  .feedback-sub-header {
+    font-size: 18px;
+  }
+  .review-list {
+    padding: 10px;
+  }
+
+  .h_txt_color {
+    font-size: 37px;
+    line-height: 40px;
+  }
+
+  /* testimonial end */
+  /* portfoilio start */
+  .portfolio-header {
+    font-size: 30px;
+  }
+  .portfolio-sub-header {
+    margin-bottom: 14px;
+  }
+
+  /* portfolio end */
+  /* contact start */
+  .da-contact-section {
+    padding: 60px 0;
+  }
+  .contact-header {
+    font-size: 30px;
+  }
+  .contact-sub-header {
+    margin-bottom: 14px;
+  }
+
+  .contact-form h3 {
+    font-size: 24px;
+  }
+  .agency-number-email {
+    gap: 25px;
+  }
+  .number-email-for-contact h5 {
+    font-size: 20px;
+  }
+  .number-email-for-contact img {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* contact end */
+  /* footer start */
+
+  .footer-location {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .footer-location-details img {
+    width: 30px;
+    height: 30px;
+  }
+  .policy {
+    gap: 15px;
+  }
+
+  /* footer end */
+}
+/*  */
+@media (max-width: 576px) {
+  .container {
+    margin: 0 12px;
+  }
+
+  /* hero start */
+  .da-hero-section {
+    padding: 90px 0;
+  }
+  .hero-section {
+    gap: 10px;
+  }
+  .hero-header {
+    margin-bottom: 12px;
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .hero-sub-header {
+    margin-bottom: 12px;
+  }
+  .common-btn {
+    padding: 10px 20px;
+  }
+  .hero-btn {
+    margin-top: 20px;
+  }
+
+  /* hero end */
+  /* brand start */
+  .da-global-brands {
+    padding: 35px 0px;
+  }
+  .brand-header {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  /* brand end */
+  /* about start */
+  .da-about-us {
+    padding-top: 40px;
+    text-align: center;
+  }
+  .business-solution {
+    gap: 12px;
+  }
+  .about-header {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .experience-item h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .spacer {
+    margin: 0;
+  }
+  /* about end */
+  /* service start */
+  .da-service-section {
+    padding: 80px 0 50px 0;
+    background-position: left;
+  }
+  .service-list-item {
+    gap: 12px;
+  }
+  .service-list-item img {
+    width: 40px;
+    height: 40px;
+  }
+  .service-list {
+    gap: 14px;
+  }
+  .service-sub-header {
+    margin-bottom: 12px;
+  }
+  .service-header {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .service-list-header {
+    font-size: 20px;
+  }
+
+  /* service end */
+  /* process start */
+  .da-process-section {
+    padding: 40px 0;
+  }
+  .process-header {
+    font-size: 28px;
+  }
+  .process-sub-header {
+    margin-bottom: 0px;
+  }
+  .working-process {
+    gap: 30px;
+  }
+  /* process end */
+  /* testimonial start */
+  .da-testimonials-section {
+    padding: 50px 0;
+  }
+  .testimonial-top {
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
+  .testimonial-sub-header {
+    margin-bottom: 12px;
+  }
+  .testimonial-header {
+    margin-bottom: 10px;
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .review-list {
+    gap: 10px;
+  }
+
+  .h_txt_color {
+    font-size: 30px;
+  }
+  .rating-from-client {
+    justify-content: center;
+  }
+
+  .testimonial-bottom {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .client-details img {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* tetimonial end */
+  /* portfolio start */
+  .da-portfolio-section {
+    padding: 50px 0;
+  }
+  .portfolio-sub-header {
+    margin-bottom: 12px;
+  }
+  .portfolio-header {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .portfolio-list {
+    gap: 20px;
+  }
+
+  /* portfolio end */
+  /* contact start */
+  .da-contact-section {
+    padding: 50px 0;
+  }
+  .contact-for-project {
+    text-align: center;
+  }
+  .contact-sub-header {
+    margin-bottom: 12px;
+  }
+
+  .contact-header {
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .number-email-for-contact h5 {
+    font-size: 16px;
+  }
+  .number-email-for-contact img {
+    width: 25px;
+    height: 25px;
+  }
+  .input-contact {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .common-contact {
+    gap: 5px;
+  }
+  .number-email-for-contact {
+    gap: 10px;
+  }
+  .agency-number-email {
+    gap: 20px;
+  }
+  .contact-form {
+    padding: 20px 60px;
+  }
+  .contact-form h3 {
+    margin-bottom: 12px;
+    font-size: 22px;
+  }
+  .input-name-email {
+    flex-direction: column;
+    justify-content: start;
+  }
+  input,
+  select,
+  textarea {
+    padding: 14px 0;
+  }
+  .center-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* contact end */
+  /* footer start */
+  .footer-contents {
+    margin: 40px 0;
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+  .footer-logo {
+    margin-bottom: 16px;
+  }
+  .footer-location-details img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .footer-menu {
+    row-gap: 10px;
+  }
+  .copyright-footer {
+    margin-bottom: 10px;
+  }
+  .section-copyright-footer {
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .policy {
+    flex-direction: column;
+  }
+}
+/* footer end */

@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digitel Agency</title>
+    <!--link-->
+   
+    <link rel="stylesheet" href="./css/global.css"/>
+    <link rel="stylesheet" href="./css/header.css"/>
+    <link rel="stylesheet" href="./css/hero.css"/>
+    <link rel="stylesheet" href="./css/brand.css"/>
+    <link rel="stylesheet" href="./css/about.css"/>
+    <link rel="stylesheet" href="./css/service.css"/>
+    <link rel="stylesheet" href="./css/process.css"/>
+    <link rel="stylesheet" href="./css/testimonial.css"/>
+    <link rel="stylesheet" href="./css/portfolio.css"/>
+    <link rel="stylesheet" href="./css/contact.css"/>
+    <link rel="stylesheet" href="./css/footer.css"/>
+    <link rel="stylesheet" href="./css/mediaquery.css"/>
+    
+    <!--font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+        <div class="container">
+          <!-- desktop menu -->
+          <nav class="nav-menu">
+            <!--logo start-->
+            <div class="logo-main">
+              <a href="#"><img src="./images/logo.png" alt="DM" /></a>
+            </div>
+            <!--logo end-->
+            <!--menu start-->
+            <ul class="desktop-menu" id="menu-list-item">
+              <li><a href="#about">About</a></li>
+              <li class="has-submenu">
+                <a href="#service">
+                  Service
+                  <span >
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="rotate-on-hover subsign">
+                      <path  d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
+                    </svg>
+                  </span>
+                </a>
+              <!-- dropdown menu -->
+              <ul class="submenu-1">
+                <li><a href="#">Market Analysis</a></li>
+                <li><a href="#">Business Consultation</a></li>
+                <li><a href="#">Technology</a></li>
+              </ul>
+              <!-- dropdown mwnu -->
+              </li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#testimonial">testimonial</a></li>
+              <li class="has-submenu">
+                 <a href="#process" class="process-menu">
+                  process
+                  <span >
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="rotate-on-click subsign">
+                      <path  d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
+                    </svg>
+                  </span>
+                </a>
+              <!-- dropdown menu -->
+              <ul class="submenu-2" id="submenu-list-1">
+                <li><a href="#">Project Contract</a></li>
+                <li><a href="#">Analysis & Researcht</a></li>
+                <li><a href="#">Provides Solutions</a></li>
+              </ul>
+              <!-- dropdown menu -->
+              </li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--menu end-->
+            <div class="mobile-icon" id="menu-open-btn" >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" fill="none"    
+              stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+              </svg>
+            </div>
+          </nav>
+            <!-- desktop menu -->
+        </div>
+      </div>
+      <!-- off canvus menu -->
+      <div class="side-nav-menu" id="offcanvus-menu">
+        <div id="menu-close-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16"> <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/> </svg>
+        </div>
+        <nav>
+          <ul class="mobile-menu-list">
+            <li><a href="#">About</a></li>
+            <li class="has-submenu">
+              <a href="#">Service
+                <span >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="rotate-on-hover subsign">
+                    <path  d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
+                  </svg>
+                </span>
+              </a>
+              <!-- dropdown menu -->
+              <ul class="submenu-3">
+                <li><a href="#" >Market Analysis</a></li>
+                <li><a href="#">Business Consultation</a></li>
+                <li><a href="#">Technology</a></li>
+              </ul>
+              <!-- dropdown menu -->
+            </li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">testimonial</a></li>
+            <li class="has-submenu">
+              <a href="#" class="subsign process-menu1">
+                process
+                <span >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="rotate-on-click1 subsign">
+                    <path  d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
+                  </svg> 
+                </span>
+              </a>
+            <!-- dropdown menu -->
+            <ul class="submenu-4" id="submenu-list-2">
+              <li><a href="#">Project Contract</a></li>
+              <li><a href="#">Analysis & Researcht</a></li>
+              <li><a href="#">Provides Solutions</a></li>
+            </ul>
+            <!-- dropdown menu -->
+            </li>
+            <li><a href="#">Contact</a></li>
+           </ul>
+      </nav>
+      </div>
+      <div id="transparent-overlay">
+      </div>
+    </header>
+    <!--header end-->
+
+    <!-- hero start -->
+    <section class="da-hero-section">   
+      <div class="container">
+        <div class="hero-section">
+          <div class="hero-left">
+            <h6 class="hero-sub-header mb-20">BEST DIGITEL AGENCY</h6>
+            <h1 class="hero-header mb-20">next generation<br /><span class="bold_text">tech solutions</span></h1>
+            <p>
+              In vel varius turpis, non dictum sem. Aenean in efficitur ipsum,
+              in egestas ipsum auris tellus.
+            </p>
+            <div class="hero-btn mt-40">
+              <a href="#" class="btn common-btn">Start a project</a>
+            </div>  
+          </div>
+          <div class="hero-right">
+            <img src="./images/hero.img.png" alt="DM" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero end -->
+
+    <!-- brand start -->
+    <section class="da-global-brands">
+      <div class="container">
+        <h3 class="brand-header mb-30">We Worked with Global Largest Brands</h3>
+        <div class="brand-images">
+          <div class="brand-logo"><img src="./images/microsoft.png" alt="DM" /></div>
+          <div class="brand-logo"><img src="./images/envato.png" alt="DM" /></div>
+          <div class="brand-logo"><img src="./images/Airtable.png" alt="DM" /></div>
+          <div class="brand-logo"><img src="./images/Comcast.png" alt="DM" /></div>
+        </div>
+      </div>
+    </section>
+    <!-- brand end -->
+
+    <!-- about start -->
+    <section class="da-about-us" id="about">
+      <div class="container">
+        <div class="common-section-for-about-process about-business-solution">
+          <div class="left-about-details"><img src="./images/about.png" /></div>
+          <div class="right-about-details">
+            <div class="business-solution">
+              <h6 class="about">ABOUT US</h6>
+              <h2 class="about-header">Innovative Advisory Business Solutions</h2>
+              <p class="about-text">
+              Lorem Ipsum sodal orci class aptent taciti so ad litora torquent
+              person conubia nostra, per inceptos himenaeos. Aenean a arcu
+              ullamcorper torquent nostra.
+            </p>
+            </div>
+            <div class="spacer"></div>
+            <div class="experience-details">
+              <div class="experience-item">
+                <h2 class="yellow">10+</h2>
+                <p>"Year of Experience</p>
+              </div>
+              <div class="experience-item">
+                <h2 class="green">1.5k</h2>
+                <p>Project Completed</p>
+              </div>
+              <div class="experience-item">
+                <h2 class="blue">100%</h2>
+                <p>Positive Feedback</p>
+              </div>
+              <div class="experience-item">
+                <h2 class="red">15+</h2>
+                <p>Awards Winner</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
+
+    <!-- service start -->
+    <section class="da-service-section" id="service">
+      <div class="container">
+        <div class="service-header-list text-alignment">
+          <h6 class="service-sub-header mb-20">SERVICE</h6>
+          <h2 class="service-header">Our creative services for you</h2>
+        </div>
+        <div class="spacer">
+
+        </div>
+        <div class="service-list">
+          <div class="service-list-item">
+            <img src="./images/service3.png" />
+            <h3 class="service-list-header">Market Analysis</h3>
+            <p>
+              Lorem ipsum dolors sit amete, the consect adipisc elit, se eiusmod
+              interdum suscipit mi sit amet sodales.
+            </p>
+          </div>
+          <div class="service-list-item">
+            <img src="./images/service2.png" />
+            <h3 class="service-list-header">Business Consultation</h3>
+            <p>
+              Lorem ipsum dolors sit amete, the consect adipisc elit, se eiusmod
+              interdum suscipit mi sit amet sodales.
+            </p>
+          </div>
+          <div class="service-list-item">
+            <img src="./images/service1.png" />
+            <h3 class="service-list-header">Technology</h3>
+            <p>
+              Lorem ipsum dolors sit amete, the consect adipisc elit, se eiusmod
+              interdum suscipit mi sit amet sodales.
+            </p>
+          </div>
+          <div class="service-list-item">
+            <img src="./images/service3.png" />
+            <h3 class="service-list-header">Market Analysis</h3>
+            <p>
+              Lorem ipsum dolors sit amete, the consect adipisc elit, se eiusmod
+              interdum suscipit mi sit amet sodales.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- service end -->
+
+    <!-- process start -->
+    <section class="da-process-section" id="process">
+      <div class="container">
+        <div class="common-section-for-about-process working-process">
+          <div class="left-process-details"><img src="./images/process.png" alt="DM"/></div>
+          <div class="right-process-details">
+            <div class="process-header-list">
+              <h6 class="process-sub-header mb-20">PROCESS</h6>
+              <h2 class="process-header">How We Work</h2>
+            </div>
+           <div class="spacer"></div>
+           <div class="work-details">
+            <div class="process-work-list">
+              <div><img src="./images/contract.png" alt="DM" /></div>
+              <div class="project-contract-analysis-solution">
+                <h5 class="work-header">Project contract</h5>
+                <p class="process-text">
+                  Lorem ipsum dolor sit amet conser adipiscing elita dolce
+                  issilm ut etiam.
+                </p>
+              </div>
+            </div>
+            <div class="process-work-list">
+              <div><img src="./images/research.png" alt="DM" /></div>
+              <div class="project-contract-analysis-solution">
+                <h5 class="work-header">Analysis & Researcht</h5>
+                <p class="process-text">
+                  Lorem ipsum dolor sit amet conser adipiscing elita dolce
+                  issilm ut etiam.
+                </p>
+              </div>
+            </div>
+            <div class="process-work-list">
+              <div><img src="./images/solution.png" alt="DM" /></div>
+              <div class="project-contract-analysis-solution">
+                <h5 class="work-header">Provides Solutions</h5>
+                <p class="process-text">
+                  Lorem ipsum dolor sit amet conser adipiscing elita dolce
+                  issilm ut etiam.
+                </p>
+              </div>
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- process end -->
+
+    <!-- testimonials start -->
+    <section class="da-testimonials-section" id="testimonial">
+      <div class="container">
+        <div class="testimonial-top">
+          <div class="testimonial-right">
+            <h6 class="testimonial-sub-header mb-20">TESTIMOIALS</h6>
+            <h2 class="h_text_color testimonial-header">Feedback from Our Clients</h2>
+          </div>
+          <div></div>
+          <div class="client-rating">
+            <div class="rating-from-client mb-20">
+              <div><img src="./images/rating.png" alt="DM" /></div> 
+              <p class="rating-number p_text_color">4.8 out of 5</p>
+            </div>
+            <p class="p_text_color">
+              More than 2.5k+ active users are working with our digital agency.
+            </p>
+          </div>
+        </div>
+        <div class="spacer"></div>
+        
+        <div class="testimonial-bottom h_text_color">
+          <div class="review-list">
+            <img src="./images/quote.png" alt="DM" class="quotation-mark" />
+            <h5 class="client-feedback-sub-header">really recommend for stay</h5>
+            <p class="client-feedback-text p_text_color">
+              “Lorem ipsum dolor sit amet, consect adipisci do ei tempor
+              incididunt ut voluptate velit the esse cillum pariatur.
+            </p>
+            <div class="client-details">
+              <img src="./images/client1.png" />
+              <div class="testimonial-client">
+                <h5 class="feedback-sub-header">Adam Smith</h5>
+                <p class="feedback p_text_color">San Antonio</p>
+              </div>
+            </div>
+          </div>
+          <div class="review-list">
+            <img src="./images/quote.png" alt="DM" class="quotation-mark" />
+            <h5 class="client-feedback-sub-header">really recommend for stay</h5>
+            <p class="client-feedback-text p_text_color">
+              “Lorem ipsum dolor sit amet, consect adipisci do ei tempor
+              incididunt ut voluptate velit the esse cillum pariatur.
+            </p>
+            <div class="client-details">
+              <img src="./images/client2.png" />
+              <div class="testimonial-client">
+                <h5 class="feedback-sub-header">Anna Smith</h5>
+                <p class="feedback p_text_color">Los Angele</p>
+              </div>
+            </div>
+          </div>
+          <div class="review-list">
+            <img src="./images/quote.png" alt="DM" class="quotation-mark" />
+            <h5 class="client-feedback-sub-header">really recommend for stay</h5>
+            <p class="client-feedback-text p_text_color">
+              “Lorem ipsum dolor sit amet, consect adipisci do ei tempor
+              incididunt ut voluptate velit the esse cillum pariatur.
+            </p>
+            <div class="client-details">
+              <img src="./images/client3.png" />
+              <div class="testimonial-client">
+                <h5 class="feedback-sub-header">Jessica Sherlock</h5>
+                <p class="feedback p_text_color">New York</p>
+              </div>
+            </div>
+          </div>
+          <div class="review-list">
+            <img src="./images/quote.png" alt="DM" class="quotation-mark" />
+            <h5 class="client-feedback-sub-header">really recommend for stay</h5>
+            <p class="client-feedback-text p_text_color">
+              “Lorem ipsum dolor sit amet, consect adipisci do ei tempor
+              incididunt ut voluptate velit the esse cillum pariatur.
+            </p>
+            <div class="client-details">
+              <img src="./images/client4.png" />
+              <div class="testimonial-client">
+                <h5 class="feedback-sub-header">Helen Maria</h5>
+                <p class="feedback p_text_color">San Francisco</p>
+              </div>
+            </div>
+          </div>
+          <div class="review-list">
+            <img src="./images/quote.png" alt="DM" class="quotation-mark" />
+            <h5 class="client-feedback-sub-header">really recommend for stay</h5>
+            <p class="client-feedback-text p_text_color">
+              “Lorem ipsum dolor sit amet, consect adipisci do ei tempor
+              incididunt ut voluptate velit the esse cillum pariatur.
+            </p>
+            <div class="client-details">
+              <img src="./images/client5.png" />
+              <div class="testimonial-client">
+                <h5 class="feedback-sub-header">Nicholas</h5>
+                <p class="feedback p_text_color">San Jose</p>
+              </div>
+            </div>
+          </div>
+          <div class="review-list">
+            <img src="./images/quote.png" alt="DM" class="quotation-mark" />
+            <h5 class="client-feedback-sub-header">really recommend for stay</h5>
+            <p class="client-feedback-text p_text_color">
+              “Lorem ipsum dolor sit amet, consect adipisci do ei tempor
+              incididunt ut voluptate velit the esse cillum pariatur.
+            </p>
+            <div class="client-details">
+              <img src="./images/client1.png" />
+              <div class="testimonial-client">
+                <h5 class="feedback-sub-header">Adam Smith</h5>
+                <p class="feedback p_text_color">San Antonio</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonials end -->
+
+    <!-- portfolio start -->
+    <section class="da-portfolio-section" id="portfolio">
+      <div class="container">
+        <div class="portfolio-header-list text-alignment">
+          <h6 class="portfolio-sub-header mb-20">PORTFOLIO</h6>
+          <h2 class="portfolio-header">Our Completed Projects</h2>
+        </div>
+        <div class="spacer"></div>
+        <div class="portfolio-list text-alignment">
+          <div class="portfolio">
+            <div class="portfolio-image">
+              <div class="image-overlay">
+                <div class="portfolio-icon" id="portfolio_icon1">
+                <i class="fa-regular fa-plus"></i>
+               </div>
+              </div>
+              <div class="portfolio-img">
+                <img src="./images/port1.png" alt="DM" />
+              </div>
+            </div>
+            
+            <h5 class="portfolio-head">business website design</h5>
+            <p class="portfolio-text">
+              Websites & Digital Platforms, Web3 Experience Design
+            </p>
+          </div>
+          <div class="portfolio">
+            <div class="portfolio-image">
+              <div class="image-overlay">
+                <div class="portfolio-icon" id="portfolio_icon2">
+                <i class="fa-regular fa-plus"></i>
+               </div>
+              </div>
+              <div class="portfolio-img">
+                <img src="./images/port2.png" alt="DM" />
+              </div>
+            </div>
+            
+            <h5 class="portfolio-head">business website design</h5>
+            <p class="portfolio-text">
+              Websites & Digital Platforms, Web3 Experience Design
+            </p>
+          </div>
+          <div class="portfolio">
+            <div class="portfolio-image">
+              <div class="image-overlay">
+                <div class="portfolio-icon" id="portfolio_icon3">
+                <i class="fa-regular fa-plus"></i>
+               </div>
+              </div>
+              <div class="portfolio-img">
+                <img src="./images/port3.png" alt="DM" />
+              </div>
+            </div>
+            
+            <h5 class="portfolio-head">business website design</h5>
+            <p class="portfolio-text">
+              Websites & Digital Platforms, Web3 Experience Design
+            </p>
+          </div>
+          <div class="portfolio">
+            <div class="portfolio-image">
+              <div class="image-overlay">
+                <div class="portfolio-icon" id="portfolio_icon4">
+                <i class="fa-regular fa-plus"></i>
+               </div>
+              </div>
+              <div class="portfolio-img">
+                <img src="./images/port4.png" alt="DM" />
+              </div>
+            </div>
+            
+            <h5 class="portfolio-head">business website design</h5>
+            <p class="portfolio-text">
+              Websites & Digital Platforms, Web3 Experience Design
+            </p>
+          </div>
+        
+        </div>
+      </div>
+
+      <!-- popup image -->
+      
+        <div class="modal-image" id="popup-image1"><img src="./images/port1.png"></div>
+        <div class="modal-image" id="popup-image2"><img src="./images/port2.png"></div>
+        <div class="modal-image" id="popup-image3"><img src="./images/port3.png"></div>
+        <div class="modal-image" id="popup-image4"><img src="./images/port4.png"></div>
+     
+    <!-- portfolio end -->
+     </section>
+    <!-- contact start -->
+    <section class="da-contact-section" id="contact">
+      <div class="container">
+        <div class="input-contact">
+          <div class="contact-item-left">
+            <div class="contact-for-project">
+              <h6 class="contact-sub-header mb-20">CONTACT</h6>
+              <h2 class="contact-header">Let's Start with Your Dream Project</h2>
+            </div>
+            <div class="spacer"></div>
+            <div class="agency-number-email">
+              <div class="common-contact">
+              <p >call us for talk to your project</p>
+              <div class="da-agency-number number-email-for-contact">
+                <img src="./images/icon_phone.png" alt="DM">
+                <h5>(+123) 555 8888</h5>
+              </div>
+            </div>
+            <div class="common-contact">
+              <p >email us for talk to your projec class</p>
+              <div class="da-agency-email number-email-for-contact">
+                <img src="./images/icon_email.png" alt="DM">
+                <h5>info@diviflash.com</h5>
+              </div>
+            </div>
+          </div>
+            
+          </div>
+          <div class="contact-item-right">
+          <div class="contact-form"> 
+            <h3 class="mb-30">Get a Quote</h3>
+            <form> 
+              <div class="input-name-email">
+                <div class="name-email">
+                  <input type="text" placeholder="Your Name">
+                </div>
+                <div class="name-email">
+                  <input type="text" placeholder="Email/Phone">
+                </div>
+              </div>
+              <div class="contact-for-service">
+                <select class="select-box">
+                  <option value="">Select a Service</option>
+                  <option value="website design">Website design</option>
+                  <option value="app design">App design</option>
+                  <option value="dashboard design">Dashboard design</option>
+                </select>
+              </div>
+
+              <div class="select-textarea">
+                <textarea placeholder="Message" rows="6"></textarea>
+              </div>
+              <div class="center-button">
+                <button type="submit" class="btn btn-contact common-btn">submit now</button>
+              </div>
+              
+            </form>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="container">
+        <div class="section-footer">
+          <div class="footer-contents">
+            <div class="footer-component">
+              <div class="footer-logo mb-30">
+                <a><img src="./images/logo.png" alt="DA" /></a>
+              </div>
+              <div class="location">
+                <div class="footer-location-details"><img src="./images/location.png" alt="DA" /></div>
+                <p class="footer-location">123 Demo St, Lakeland, FL 4578,<br> United States.</p>
+              </div>
+              
+            </div>
+            <div class="footer-links">
+              <h4 class="footer-head mb-20">QUiCK LINKS</h4>
+              <ul class="footer-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">About Us</a></li> 
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">work Process</a></li>  
+              </ul>
+            </div>
+            <div class="footer-social-media-links">
+              <h4 class="footer-head mb-20">FOLLOW US</h4>
+              <div class="social-media-links">
+                <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a> 
+                <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-youtube"></i></a>
+              
+            </div>
+          </div>
+        </div>
+        <!-- copyright footer -->
+        
+        <div class="section-copyright-footer">
+          <div class="copyright-footer">
+           <p> &copy;2024 Digital Agency All rights reserved;</p>
+          </div>
+         
+            <ul class="policy">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          
+        </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <script
+      src="https://kit.fontawesome.com/8fb930957b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

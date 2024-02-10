@@ -1,0 +1,201 @@
+/* header start */
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  transition: 0.2s;
+}
+.no-sticky {
+  position: absolute;
+}
+header.sticky {
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.06);
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-main {
+  padding: 5px;
+}
+.desktop-menu {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.desktop-menu li {
+  list-style: none;
+}
+/*  */
+.desktop-menu > li > a {
+  position: relative;
+}
+.desktop-menu > li > a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 3px;
+  background-color: #ffa826;
+  transition: 0.3s;
+}
+
+.desktop-menu > li > a:hover::after {
+  width: 100%;
+}
+
+/*  */
+/*  */
+.desktop-menu > li > a.active-color {
+  color: #ffa826;
+}
+/*  */
+
+.desktop-menu li a {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+}
+.desktop-menu > li > a {
+  padding: 30px 0;
+  display: flex;
+  column-gap: 4px;
+}
+
+.subsign {
+  width: 12px;
+  height: 12px;
+}
+.desktop-menu > li > :hover {
+  color: #ffa826;
+}
+.rotate-on-hover {
+  transition: 0.5s;
+}
+
+.desktop-menu > li:hover .rotate-on-hover {
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
+
+.mobile-icon {
+  display: none;
+  cursor: pointer;
+}
+#menu-open-btn {
+  stroke: #ffffff;
+}
+#menu-open-btn.activated {
+  stroke: #000000;
+}
+/* dropdwon menu */
+.submenu-1 {
+  padding: 20px;
+  display: none;
+  gap: 10px;
+  border-radius: 5px;
+  position: absolute;
+  width: 250px;
+  background-color: #f0f4fa;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.desktop-menu li:hover .submenu-1 {
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s;
+}
+.submenu-1 li a:hover {
+  color: #5e6266;
+}
+
+.submenu-2 {
+  padding: 20px;
+  border-radius: 5px;
+  position: absolute;
+  width: 250px;
+  background-color: #f0f4fa;
+  z-index: 999;
+  transition: 0.5s;
+  display: none;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.submenu-2 li a:hover {
+  border: none;
+  color: #5e6266;
+}
+
+.submenu-2.open {
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.rotate-on-click {
+  transition: 0.5s;
+}
+.rotate-on-click.rotate {
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
+
+/* dropdown menu */
+
+/* off canvus menu */
+.side-nav-menu {
+  position: fixed;
+  height: 100vh;
+  width: 300px;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  transition: 0.9s;
+  transform: translateX(-100%);
+}
+.side-nav-menu.active {
+  transition: 0.9s;
+  transform: translateX(0);
+  background-color: #eeeeee;
+}
+.mobile-menu-list li {
+  margin: 26px 0;
+  list-style: none;
+  text-align: center;
+}
+.mobile-menu-list li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+/* dropdown menu */
+.mobile-menu-list li a {
+  position: relative;
+}
+.mobile-menu-list li :hover .rotate-on-hover {
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
+.mobile-menu-list li .submenu-1 {
+  position: relative;
+}
+.mobile-menu-list li ul li {
+  margin: 10px 0;
+}
+
+#menu-close-btn {
+  position: absolute;
+  color: rgba(0, 0, 0, 0.6);
+  right: 0;
+}
+/* header end */

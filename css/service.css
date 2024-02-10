@@ -1,0 +1,40 @@
+/* service start */
+.da-service-section {
+  padding: 140px 0;
+  background-image: url("../images/bg1.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-alignment {
+  text-align: center;
+}
+.service-sub-header {
+  display: inline-block;
+  color: #1273eb;
+}
+.service-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.service-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  background-color: #ffffff;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.service-list-item img {
+  width: 70px;
+  height: 70px;
+}
+
+.service-list-item:hover {
+  border: 1px solid #1273eb;
+  background-color: #deefff;
+}
+/* service end */
